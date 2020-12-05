@@ -16,14 +16,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3D3BE79A257BE21F00217442 /* Osama stacking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Osama stacking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D3BE79A257BE21F00217442 /* stacking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stacking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D3BE79D257BE21F00217442 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D3BE79F257BE21F00217442 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3D3BE7A1257BE21F00217442 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3D3BE7A4257BE21F00217442 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D3BE7A6257BE22000217442 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D3BE7A9257BE22000217442 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3D3BE7AB257BE22000217442 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DA21037257BFD25001A56D4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +40,7 @@
 		3D3BE791257BE21F00217442 = {
 			isa = PBXGroup;
 			children = (
-				3D3BE79C257BE21F00217442 /* Osama stacking */,
+				3D3BE79C257BE21F00217442 /* stacking */,
 				3D3BE79B257BE21F00217442 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +48,31 @@
 		3D3BE79B257BE21F00217442 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3D3BE79A257BE21F00217442 /* Osama stacking.app */,
+				3D3BE79A257BE21F00217442 /* stacking.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3D3BE79C257BE21F00217442 /* Osama stacking */ = {
+		3D3BE79C257BE21F00217442 /* stacking */ = {
 			isa = PBXGroup;
 			children = (
+				3DA21037257BFD25001A56D4 /* Info.plist */,
 				3D3BE79D257BE21F00217442 /* AppDelegate.swift */,
 				3D3BE79F257BE21F00217442 /* SceneDelegate.swift */,
 				3D3BE7A1257BE21F00217442 /* ViewController.swift */,
 				3D3BE7A3257BE21F00217442 /* Main.storyboard */,
 				3D3BE7A6257BE22000217442 /* Assets.xcassets */,
 				3D3BE7A8257BE22000217442 /* LaunchScreen.storyboard */,
-				3D3BE7AB257BE22000217442 /* Info.plist */,
 			);
-			path = "Osama stacking";
+			path = stacking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3D3BE799257BE21F00217442 /* Osama stacking */ = {
+		3D3BE799257BE21F00217442 /* stacking */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D3BE7AE257BE22000217442 /* Build configuration list for PBXNativeTarget "Osama stacking" */;
+			buildConfigurationList = 3D3BE7AE257BE22000217442 /* Build configuration list for PBXNativeTarget "stacking" */;
 			buildPhases = (
 				3D3BE796257BE21F00217442 /* Sources */,
 				3D3BE797257BE21F00217442 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "Osama stacking";
+			name = stacking;
 			productName = "Osama stacking";
-			productReference = 3D3BE79A257BE21F00217442 /* Osama stacking.app */;
+			productReference = 3D3BE79A257BE21F00217442 /* stacking.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3D3BE795257BE21F00217442 /* Build configuration list for PBXProject "Osama stacking" */;
+			buildConfigurationList = 3D3BE795257BE21F00217442 /* Build configuration list for PBXProject "stacking" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3D3BE799257BE21F00217442 /* Osama stacking */,
+				3D3BE799257BE21F00217442 /* stacking */,
 			);
 		};
 /* End PBXProject section */
@@ -287,13 +287,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZXX42Y889S;
-				INFOPLIST_FILE = "Osama stacking/Info.plist";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/stacking/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "sa.msa.Osama-stacking";
+				PRODUCT_BUNDLE_IDENTIFIER = sa.msa.stacking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -306,13 +306,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZXX42Y889S;
-				INFOPLIST_FILE = "Osama stacking/Info.plist";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/stacking/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "sa.msa.Osama-stacking";
+				PRODUCT_BUNDLE_IDENTIFIER = sa.msa.stacking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,7 +322,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3D3BE795257BE21F00217442 /* Build configuration list for PBXProject "Osama stacking" */ = {
+		3D3BE795257BE21F00217442 /* Build configuration list for PBXProject "stacking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D3BE7AC257BE22000217442 /* Debug */,
@@ -331,7 +331,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3D3BE7AE257BE22000217442 /* Build configuration list for PBXNativeTarget "Osama stacking" */ = {
+		3D3BE7AE257BE22000217442 /* Build configuration list for PBXNativeTarget "stacking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D3BE7AF257BE22000217442 /* Debug */,
