@@ -55,7 +55,7 @@ class AddtionsViewController: UIViewController {
         addtionLabel.text = "Addtions"
         
         let expandDismissButton = UIButton(type: .system)
-        expandDismissButton.setTitle("Expand", for: .normal)
+        expandDismissButton.setTitle("Dismiss", for: .normal)
         expandDismissButton.setTitleColor(.blue, for: .normal)
         expandDismissButton.setTitleColor(.red, for: .highlighted)
         expandDismissButton.contentHorizontalAlignment = .trailing
@@ -109,7 +109,7 @@ class AddtionsViewController: UIViewController {
     @objc
     private func performExpandDismissButtonAction(_ sender: UIButton){
         guard let superview = sender.superview?.superview as? UIStackView else { return }
-        guard let addtionStackView = superview.arrangedSubviews.last else { return }
+        guard let addtionsStackView = superview.arrangedSubviews.last else { return }
         UIView.animate(withDuration: 0.25,
                        delay: 0.0,
                        usingSpringWithDamping: 0.9,
@@ -118,10 +118,10 @@ class AddtionsViewController: UIViewController {
                        animations: {
                         if sender.title(for: .normal) == "Expand"{
                             sender.setTitle("Dismiss", for: .normal)
-                            addtionStackView.isHidden = false
+                            addtionsStackView.isHidden = false
                         }else{
                             sender.setTitle("Expand", for: .normal)
-                            addtionStackView.isHidden = true
+                            addtionsStackView.isHidden = true
                         }
                        },
                        completion: nil)
