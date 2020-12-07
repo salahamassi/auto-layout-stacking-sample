@@ -55,7 +55,7 @@ class AddtionsViewController: UIViewController {
         addtionLabel.text = "Addtions"
         
         let expandDismissButton = UIButton(type: .system)
-        expandDismissButton.setTitle("Dismiss", for: .normal)
+        expandDismissButton.setTitle("Expand", for: .normal)
         expandDismissButton.setTitleColor(.blue, for: .normal)
         expandDismissButton.setTitleColor(.red, for: .highlighted)
         expandDismissButton.contentHorizontalAlignment = .trailing
@@ -76,6 +76,7 @@ class AddtionsViewController: UIViewController {
             addtionStack.priceLabel.text = "+\(addtion.price) SAR"
             addtionsStack.addArrangedSubview(addtionStack.stack)
         }
+        addtionsStack.isHidden = true
         let vstack = UIStackView(arrangedSubviews: [titleStackView, addtionsStack])
         vstack.layoutMargins = .init(top: 0, left: 15, bottom: 0, right: 15)
         vstack.isLayoutMarginsRelativeArrangement = true
